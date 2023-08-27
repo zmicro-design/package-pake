@@ -1,0 +1,7 @@
+#!/bin/bash
+
+install() {
+  pm::npm install -g pake-cli
+}
+
+export -f install
